@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors({
     origin:'*'
 }))
-mongoose.connect('mongodb+srv://harishvarri0:_harish8008_H@cluster1.8lznp05.mongodb.net/mydatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://harishvarri0:<password>@cluster1.8lznp05.mongodb.net/mydatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
